@@ -1,0 +1,52 @@
+<!-- Utilize o ChatGPT para gerar uma paleta de cores harmoniosa. Crie um arquivo HTML básico com uma estrutura simples contendo um header, section, aside, footer, e alguns elementos adicionais como botões e links. Utilize as cores geradas para estilizar o site. -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Paleta de Cores Simples</title>
+    <style>
+        body {
+            background: #F6F8F5;
+            color: #282F3A;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #CA3D3E;
+            color: #fff;
+            padding: 16px;
+            text-align: center;
+        }
+        main {
+            max-width: 600px;
+            margin: 32px auto;
+            background: #F3A8A4;
+            border-radius: 8px;
+            padding: 32px;
+            box-shadow: 0 2px 8px rgba(40,47,58,0.08);
+        }
+        
+        footer {
+            background: #282F3A;
+            color: #fff;
+            text-align: center;
+            padding: 16px;
+            margin-top: 32px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Paleta de Cores Simples</h1>
+    </header>
+    <main>
+        <h2>Bem-vindo!</h2>
+        <p>Este é um site!</p>
+    </main>
+    <footer>
+        &copy; 2025 Introdução ao CSS 
+    </footer>
+</body>
+</html>
