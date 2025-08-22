@@ -1,0 +1,47 @@
+<!-- Construa um Curriculum ou Portifolio simples utilizando HTML. -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculo 2.0</title>
+</head>
+
+<body>
+    <header>
+        <h1>Curriculo Andreia</h1>
+
+        <nav>
+            <a href="https://br.linkedin.com/in/andreia-tereza-5479002a0?trk=people-guest_people_search-card">Linkedin</a>
+            <a href="https://github.com/Kofhe">Github</a>
+            <a href="https://www.instagram.com/andreiadias_prof/">Instagram</a>
+            <p>Brasileira, 27 anos</p>
+            <p>Email: andreia******@gmail.com</p>
+            <p>Contato: (31)99379-9621</p>
+            <p>Endereço: Centro - Belo Horizonte // Minas Gerais</p>
+        </nav>  
+
+    <h2>Objetivo</h2>
+        <p>Estudante de Ciência da Computação, dedicando a compreender os desafios computacionais. Apaixonada por
+            tecnológica, sempre em busca de oportunidades para aprimorar minhas habilidades práticas.</p>
+    <h2>Formação Acadêmica</h2>
+    <ol>
+        <li>Faculdade Pitagoras - Ciência da computação</li>
+        <li>Faculdade Pitagoras - Educação Física</li>
+        </ol>
+    <h2>Hard Skilss</h2>
+    <ul>
+        <li>Excel intermediario</li>
+        <li>E-commerce</li>
+        <li>JavaScrip e Python básico</li>
+        <li>Pacote Office</li>
+        <li>Montagem e Manutenção de Hardware</li>
+    </ul>
+
+    </header>
+
+</body>
+
+</html>
