@@ -1,1 +1,58 @@
+<!-- Crie uma página com um contêiner flexível que contenha três caixas. Utilize o Flexbox para alinhar as caixas horizontalmente no centro da página.
+Instruções:
+Crie um contêiner que abriga três elementos internos, também, representando as caixas.
+Aplique display: flex; ao contêiner.
+Use a propriedade justify-content para centralizar as caixas horizontalmente.
+Use a propriedade align-items para alinhar as caixas verticalmente no centro do contêiner.
+Defina uma altura mínima para o contêiner para que o alinhamento vertical seja visível. -->
 
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Flexbox - Caixas Centralizadas</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 600px;
+            gap: 24px;
+        }
+        .box {
+            width: 120px;
+            height: 120px;
+            border-radius: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 19px;
+            font-weight: bold;
+        }
+
+        .caixa1 {
+            background: #ffd1dc; 
+            color: #222; 
+        }
+        .caixa2 {
+            background: #222; 
+            color: #ffffff; 
+        }
+        .caixa3 {
+            background: #e43636; 
+            color: #000000; 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box caixa1">caixa1</div>
+        <div class="box caixa2">caixa2</div>
+        <div class="box caixa3">caixa3</div>
+    </div>
+</body>
+</html>
